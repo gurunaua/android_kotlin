@@ -5,9 +5,9 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
 import com.bumptech.glide.Glide
+import kotlinx.android.extensions.LayoutContainer
+import kotlinx.android.synthetic.main.item.*
 
 class RAdapter(private val context: Context, private val list: List<RModel>, private val listener:(RModel)->Unit)
     : RecyclerView.Adapter<RAdapter.ViewHolder>(){
@@ -23,11 +23,7 @@ class RAdapter(private val context: Context, private val list: List<RModel>, pri
         return list.size
     }
 
-    class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
-
-        private val name = view.findViewById<TextView>(R.id.name)
-        private val image = view.findViewById<ImageView>(R.id.image)
-
+    class ViewHolder(override val containerView: View) : RecyclerView.ViewHolder(containerView), LayoutContainer{
         fun bindItem(items: RModel, listener: (RModel) -> Unit) {
             name.text = items.name
             Glide.with(itemView.context).load(items.image).into(image)
