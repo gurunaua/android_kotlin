@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CobaKotlin</string>
+
+    <string-array name="image_name">
+        <item>Gambar 1</item>
+        <item>Gambar 12</item>
+        <item>Gambar 13</item>
+        <item>Gambar 4</item>
+    </string-array>
+
+    <array name="image_res">
+        <item>@drawable/i_1</item>
+        <item>@drawable/i_2</item>
+        <item>@drawable/i_3</item>
+        <item>@drawable/i_4</item>
+    </array>
+</resources>
