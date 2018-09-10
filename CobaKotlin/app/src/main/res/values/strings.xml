@@ -2,16 +2,24 @@
     <string name="app_name">CobaKotlin</string>
 
     <string-array name="image_name">
-        <item>Gambar 1</item>
-        <item>Gambar 12</item>
-        <item>Gambar 13</item>
-        <item>Gambar 4</item>
+        <item>Barcelona FC</item>
+        <item>Real Madrid FC</item>
+        <item>Bayern Munchen FC</item>
+        <item>Manchester City FC</item>
+        <item>Manchester United FC</item>
+        <item>Chelsea FC</item>
+        <item>AC Milan FC</item>
+        <item>Arsenal FC</item>
     </string-array>
 
     <array name="image_res">
-        <item>@drawable/i_1</item>
-        <item>@drawable/i_2</item>
-        <item>@drawable/i_3</item>
-        <item>@drawable/i_4</item>
+        <item>@drawable/img_barca</item>
+        <item>@drawable/img_madrid</item>
+        <item>@drawable/img_bayern</item>
+        <item>@drawable/img_city</item>
+        <item>@drawable/img_mu</item>
+        <item>@drawable/img_chelsea</item>
+        <item>@drawable/img_acm</item>
+        <item>@drawable/img_arsenal</item>
     </array>
 </resources>

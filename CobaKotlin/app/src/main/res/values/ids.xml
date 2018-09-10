@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageItem" type="id">imgItem</item>
+    <item name="text1ya" type="id">text1ya</item>
+    <item name="rc_ya" type="id">rc_ya</item>
+    <item name="imageItemx" type="id">imageItemx</item>
+    <item name="image_second" type="id">image_second</item>
+</resources>
