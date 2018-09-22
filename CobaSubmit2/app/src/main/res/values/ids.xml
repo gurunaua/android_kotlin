@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="srlayout_fragment_one" type="id" />
+    <item name="rv_fragment_one" type="id" />
+    <item name="progress_fragment_one" type="id" />
+</resources>

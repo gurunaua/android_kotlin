@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="4dp"
+    android:padding="4dp"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/tv_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sab, 4 Mar 2018"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_vs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="vs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_item_date"
+        app:layout_constraintStart_toStartOf="@+id/tv_item_date"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_date" />
+
+    <TextView
+        android:id="@+id/tv_item_score_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_item_vs"
+        app:layout_constraintEnd_toStartOf="@+id/tv_item_vs"
+        app:layout_constraintTop_toTopOf="@+id/tv_item_vs" />
+
+    <TextView
+        android:id="@+id/tv_item_team_name_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Team A"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_item_score_left"
+        app:layout_constraintEnd_toStartOf="@+id/tv_item_score_left"
+        app:layout_constraintTop_toTopOf="@+id/tv_item_score_left" />
+
+    <TextView
+        android:id="@+id/tv_item_score_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_item_vs"
+        app:layout_constraintStart_toEndOf="@+id/tv_item_vs"
+        app:layout_constraintTop_toTopOf="@+id/tv_item_vs" />
+
+    <TextView
+        android:id="@+id/tv_item_team_name_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Team B"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_item_score_right"
+        app:layout_constraintStart_toEndOf="@+id/tv_item_score_right"
+        app:layout_constraintTop_toTopOf="@+id/tv_item_score_right" />
+
+</android.support.constraint.ConstraintLayout>
